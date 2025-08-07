@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueWave Solutions - 문의하기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">BlueWave</a>
+            <ul class="nav-links">
+                <li><a href="index.html">회사소개</a></li>
+                <li><a href="organization.html">팀</a></li>
+                <li><a href="products.html">솔루션</a></li>
+                <li><a href="marketing.html">소식</a></li>
+            </ul>
+            <a href="order.html" class="nav-cta">문의하기</a>
+            <div class="burger"> 
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1>프로젝트 문의하기</h1>
+            <p>최고의 전문가들과 함께 당신의 아이디어를 실현하세요.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <form action="#" method="post" class="toss-form">
+                    <div class="form-group">
+                        <label for="name">이름</label>
+                        <input type="text" id="name" name="name" placeholder="이름을 입력하세요" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" name="email" placeholder="이메일 주소를 입력하세요" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="product">관심 솔루션</label>
+                        <select id="product" name="product">
+                            <option value="wave-analyzer">Wave Analyzer</option>
+                            <option value="bluewave-crm">BlueWave CRM</option>
+                            <option value="etc">기타 문의</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">문의 내용</label>
+                        <textarea id="message" name="message" rows="6" placeholder="프로젝트에 대해 자세히 알려주세요"></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">문의 접수</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BlueWave Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
